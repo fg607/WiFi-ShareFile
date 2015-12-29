@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/first_back"
+    tools:context="com.example.wifiapp.activity.FirstActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:background="@drawable/first_img_background"
+        android:text="发送文件"
+        android:textSize="18sp"
+        android:onClick="sendFiles"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:background="@drawable/first_img_background"
+            android:text="接收文件"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:onClick="receiveFiles"/>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

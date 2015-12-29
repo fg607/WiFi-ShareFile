@@ -1,0 +1,124 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:2:1-95:12
+	package
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:3:5-34
+		INJECTED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:21.0.0] /home/fg607/AndroidStudioProjects/WifiApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/AndroidManifest.xml:15:5-42
+MERGED from [com.daimajia.numberprogressbar:library:1.2] /home/fg607/AndroidStudioProjects/WifiApp/app/build/intermediates/exploded-aar/com.daimajia.numberprogressbar/library/1.2/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:8:9-34
+		INJECTED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:12:22-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:13:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:14:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:15:5-67
+	android:name
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:15:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:16:22-77
+application
+ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:18:5-93:19
+MERGED from [com.android.support:support-v4:21.0.0] /home/fg607/AndroidStudioProjects/WifiApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/AndroidManifest.xml:16:5-19
+	android:label
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:22:9-41
+	android:allowBackup
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:20:9-35
+	android:icon
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:21:9-40
+	android:theme
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:23:9-40
+	android:name
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:19:9-50
+activity#com.example.wifiapp.activity.ChooseAppActivity
+ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:24:9-27:20
+	android:label
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:26:13-61
+	android:name
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:25:13-55
+activity#com.example.wifiapp.activity.FirstActivity
+ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:28:9-37:20
+	android:label
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:30:13-57
+	android:launchMode
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:31:13-48
+	android:name
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:29:13-51
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:32:13-36:29
+action#android.intent.action.MAIN
+ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:35:27-74
+activity#com.example.wifiapp.activity.SendActivity
+ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:38:9-87:20
+	android:label
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:40:13-33
+	android:launchMode
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:41:13-44
+	android:name
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:39:13-50
+intent-filter#android.intent.action.SEND+android.intent.category.DEFAULT
+ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:42:13-63:29
+action#android.intent.action.SEND
+ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:43:17-69
+	android:name
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:43:25-66
+category#android.intent.category.DEFAULT
+ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:45:17-76
+	android:name
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:45:27-73
+data
+ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:47:17-52
+	android:mimeType
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:47:23-49
+intent-filter#android.intent.action.SEND_MULTIPLE+android.intent.category.DEFAULT
+ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:64:13-86:29
+action#android.intent.action.SEND_MULTIPLE
+ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:65:17-78
+	android:name
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:65:25-75
+activity#com.example.wifiapp.activity.ReceiveActivity
+ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:88:9-92:20
+	android:label
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:90:13-33
+	android:launchMode
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from /home/fg607/AndroidStudioProjects/WifiApp/app/src/main/AndroidManifest.xml:89:13-53

@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.wifiapp.activity.FirstActivity">
+    <item android:id="@+id/action_settings" android:title="退出"
+        android:orderInCategory="100" android:showAsAction="never" />
+</menu>
+<!-- From: file:/home/fg607/AndroidStudioProjects/WifiApp/app/src/main/res/menu/menu_first.xml -->

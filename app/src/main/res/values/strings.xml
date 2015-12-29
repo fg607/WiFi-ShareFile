@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">局域网文件传输</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">文件存储路径/sdcard0/WifiSharedFolder</string>
+     <string name="checkwifi">检查wifi状态</string>
+     <string name="startserver">开启服务</string>
+     <string name="stopserver">退出程序</string>
+    <string name="title_activity_send">发送文件</string>
+    <string name="title_activity_first">局域网文件传输</string>
+    <string name="title_activity_appchoose">选择要发送的应用</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_send_test">SendTestActivity</string>
+    <string name="title_activity_receive_test">ReceiveTestActivity</string>
+
+</resources>
